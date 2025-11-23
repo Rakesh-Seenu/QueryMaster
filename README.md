@@ -95,12 +95,11 @@ Enable "Response Evaluation" to see real-time scores.
 ```
 
 ## Example Query Flow
-
-  User asks: "What programs are offered in the ADSAI curriculum?"
-  System retrieves relevant chunks from Qdrant
-  Groq LLM generates an answer
-  Evaluation module scores the response
-  Metrics are displayed in UI
+- User asks: "What programs are offered in the ADSAI curriculum?"
+- System retrieves relevant chunks from Qdrant
+- Groq LLM generates an answer
+- Evaluation module scores the response
+- Metrics are displayed in UI
 
 ## RAG Optimization Tips (Based on Your Results)
 
