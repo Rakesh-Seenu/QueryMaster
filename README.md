@@ -25,14 +25,14 @@ You observed major improvements when tuning retrieval:
 This improvement happened because:
 
 ✔ Smaller chunk size (800)
-Creates more fine-grained embeddings
-Allows the retriever to match precise content
-Reduces "overly large" chunks that dilute semantic meaning
+- Creates more fine-grained embeddings
+- Allows the retriever to match precise content
+- Reduces "overly large" chunks that dilute semantic meaning
 
 ✔ Lower k (3)
-Reduces retrieval noise
-Ensures the LLM receives only the most relevant chunks
-Prevents irrelevant context from lowering evaluation scores
+- Reduces retrieval noise
+- Ensures the LLM receives only the most relevant chunks
+- Prevents irrelevant context from lowering evaluation scores
 
 ## Installation
 1️⃣ Clone the repository
@@ -59,25 +59,25 @@ streamlit run app.py
 ## How to Use
 1. Upload PDF files
 The ingestion engine will:
-  Split PDFs
-  Embed text
-  Store them in Qdrant
-  Mark the dataset as “Ready for chat”
+- Split PDFs
+- Embed text
+- Store them in Qdrant
+- Mark the dataset as “Ready for chat”
 
-2. Configure parameters
+3. Configure parameters
 You can adjust:
-  LLM model
-  Embedding model
-  Chunk size
-  Chunk overlap
-  Retrieval k
-  MMR fetch_k
-  Search strategy (MMR / Similarity)
+- LLM model
+- Embedding model
+- Chunk size
+- Chunk overlap
+- Retrieval k
+- MMR fetch_k
+- Search strategy (MMR / Similarity)
 
-3. Ask questions
+5. Ask questions
 Ask domain-specific questions from the PDFs.
 
-4. Evaluate responses
+6. Evaluate responses
 Enable "Response Evaluation" to see real-time scores.
 
 ## Project Structure
