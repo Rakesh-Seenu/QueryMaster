@@ -3,6 +3,8 @@
 QueryMaster is a configurable Retrieval Augmented Generation (RAG) system built with Streamlit, Groq LLMs, Qdrant Vector DB, and HuggingFace Embeddings.
 Upload PDFs, generate embeddings, and interact with your documents using an optimized retrieval pipeline.
 
+https://github.com/user-attachments/assets/7ad29c9b-7c8b-4e52-bc19-30a6fc73dc1f
+
 ## Features
 
 - PDF → Embeddings → Qdrant ingestion pipeline
