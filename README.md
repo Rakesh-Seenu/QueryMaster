@@ -102,9 +102,9 @@ Enable "Response Evaluation" to see real-time scores.
 
 ## RAG Optimization Tips (Based on Your Results)
 
-✔ Chunk Size 800–1000 works best for academic PDFs
-✔ k = 2–4 reduces noise
-✔ Use MMR when PDFs have repetitive sections
-✔ Keep temperature at 0.0 for factual content
-✔ BGE-Small is a strong embedding model for 384-dim vectors
+- Chunk Size 800–1000 works best for academic PDFs
+- k = 2–4 reduces noise
+- Use MMR when PDFs have repetitive sections
+- Keep temperature at 0.0 for factual content
+- BGE-Small is a strong embedding model for 384-dim vectors
 
