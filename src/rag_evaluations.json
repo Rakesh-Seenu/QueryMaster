@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-11-23T02:32:05.520682",
+    "question": "what all programs are offered in the college?",
+    "answer": "The context mentions the following programs and modules offered by the college:\n\n1. **Core Modules**:\n\t* Advanced Data Analytics\n\t* Media Analytics and Creative AI\n\t* Business Analytics\n\t* Intelligent Process Automation\n2. **Regular Modules**:\n\t* 6 months Internship\n\t* Semester Abroad\n3. **Specialized Tracks**:\n\t* Reinforcement Learning & Agentic AI\n\t* Entrepreneurship & Innovation\n\t* Media Analytics & Creative AI\n4. **Certifications**:\n\t* NVIDIA Certificate in Fundamentals of Deep Learning\n5. **Other Programs**:\n\t* Scrum Training\n\t* Blended-Intensive Programs (BIP)\n\t* Hackathons\n\t* Guest Lectures\n\t* Master Thesis\n\t* Entrepreneurship program\n\nNote that the context does not provide an exhaustive list of all programs offered by the college, but rather highlights some of the key programs and modules available.",
+    "sources": [
+      "ADSAI_General Information.pdf (Page 0)",
+      "ADSAI_General Information.pdf (Page 7)",
+      "ADSAI_General Information.pdf (Page 7)",
+      "ADSAI_General Information.pdf (Page 1)",
+      "ADSAI_General Information.pdf (Page 6)",
+      "ADSAI_General Information.pdf (Page 9)",
+      "ADSAI_General Information.pdf (Page 3)"
+    ],
+    "scores": {
+      "relevance": 9,
+      "faithfulness": 9,
+      "completeness": 8,
+      "explanation": "The response accurately addresses the question by listing various programs and modules mentioned in the context. It remains faithful to the provided context without introducing hallucinations. However, the completeness score is 8 because the response notes that the context does not provide an exhaustive list of all programs, implying that there might be more programs not mentioned.",
+      "context_similarity": 78.7
+    }
+  },
+  {
+    "timestamp": "2025-11-23T02:32:27.993299",
+    "question": "what all carrier ways are there?",
+    "answer": "According to the provided context, the following career paths are mentioned:\n\n1. Data Scientist\n2. Data Analyst\n3. Data Engineer\n4. Data Architect\n5. Machine Learning Engineer\n6. Data Steward\n7. Business Intelligence Analyst\n8. NLP Engineer/Language Model Expert\n9. Quantitative Analyst\n10. AI Consultant\n11. Data Warehouse Architect\n12. Cloud Data Engineer\n\nThese career paths are related to data science, AI, and cloud computing.",
+    "sources": [
+      "ADSAI_General Information.pdf (Page 4)",
+      "ADSAI_General Information.pdf (Page 7)",
+      "ADSAI_General Information.pdf (Page 11)",
+      "ADSAI_General Information.pdf (Page 8)",
+      "ADSAI_General Information.pdf (Page 3)",
+      "ADSAI_General Information.pdf (Page 1)",
+      "ADSAI_General Information.pdf (Page 6)"
+    ],
+    "scores": {
+      "relevance": 8,
+      "faithfulness": 9,
+      "completeness": 8,
+      "explanation": "The answer is relevant to the question as it provides a list of career paths mentioned in the context. It is faithful to the context as it only mentions career paths that are actually present in the text. However, it may not be comprehensive as the question asks for 'carrier ways' which could be interpreted as methods or paths for deployment, but the answer assumes it to be career paths. The context does mention 'deployment' but it seems to be related to a computing setup rather than career development.",
+      "context_similarity": 75.5
+    }
+  }
+]

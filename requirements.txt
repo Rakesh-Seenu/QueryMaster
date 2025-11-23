@@ -1,0 +1,12 @@
+streamlit
+pypdf
+qdrant-client
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+sentence-transformers
+python-dotenv
+langchain-text-splitters
+langchain-classic
+huggingface_hub[hf_xet]
