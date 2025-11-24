@@ -10,3 +10,4 @@ python-dotenv
 langchain-text-splitters
 langchain-classic
 huggingface_hub[hf_xet]
+langchain-qdrant
